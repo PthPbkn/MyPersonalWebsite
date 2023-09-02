@@ -1,0 +1,45 @@
+.featuredBox{
+  height: 120px;
+  width: 120px;
+  background: #7303f3;
+  color: white;
+  font-weight:900
+}
+.yearsofExp{
+  height: 120px;
+  width: 120px;
+  color: white;
+
+}
+
+
+
+.timelineExp {
+  border-left: 1px solid hsl(0, 43%, 50%);
+  position: relative;
+  list-style: none;
+}
+
+.timelineEdu {
+  border-left: 1px solid hsl(0, 43%, 50%);
+  list-style: none;
+}
+
+.timelineExp .timeline-item {
+  position: relative;
+}
+
+.timelineExp .timeline-item:after {
+  position: absolute;
+  display: block;
+  top: 0;
+}
+
+.timelineExp .timeline-item:after {
+  background-color: hsl(0, 86%, 30%);
+  left: -38px;
+  border-radius: 50%;
+  height: 11px;
+  width: 11px;
+  content: "";
+}

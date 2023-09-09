@@ -25,6 +25,50 @@
   padding-bottom: 6.5rem;
 }
 
+.input-style{
+  background-color: transparent;
+  border: 0px;
+  border-bottom: 2px solid white;
+  width: 100%;
+  color: white;
+  height: 40;
+}
+
+.input-style:focus{
+  border: #7303f3;
+}
+
+
+
+
+.btn {
+  border-width: 2px;
+  font-weight: 500;
+  padding: 0.8rem 2.6rem;
+  transition: all .5s ease;
+}
+
+.rounded-0 {
+  border-radius: 0!important;
+}
+
+.btn-dark {
+  --bs-btn-color: #fff;
+  --bs-btn-bg: #212529;
+  --bs-btn-border-color: #212529;
+  --bs-btn-hover-color: #fff;
+  --bs-btn-hover-bg: #db0a06;
+  --bs-btn-hover-border-color: #db0a06;
+  --bs-btn-focus-shadow-rgb: 66,70,73;
+  --bs-btn-active-color: #fff;
+  --bs-btn-active-bg: #4d5154;
+  --bs-btn-active-border-color: #373b3e;
+  --bs-btn-active-shadow: inset 0 3px 5px rgba(0,0,0,.125);
+  --bs-btn-disabled-color: #fff;
+  --bs-btn-disabled-bg: #212529;
+  --bs-btn-disabled-border-color: #212529;
+}
+
 
 
 
@@ -51,4 +95,43 @@
   height: 11px;
   width: 11px;
   content: "";
+}
+
+
+
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 70px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+
+.fa-facebook:hover {
+    background: #3B5998;
+}
+
+.fa-twitter:hover {
+    background: #55ACEE;
+}
+
+.fa-linkedin:hover {
+    background: #007bb5;
+}
+
+.fa-facebook {
+  background: #08090b;
+  color: white;
+}
+
+.fa-twitter {
+  background: #08090b;
+  color: white;
+}
+
+.fa-linkedin {
+  background: #08090b;
+  color: white;
 }

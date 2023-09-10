@@ -52,9 +52,15 @@
   border-radius: 0!important;
 }
 
+/**section-SkillsProgressbar**/
 
+.progress-bar{
+  background-color: #7303f3;
+}
 
+/**section-SkillsProgressbar**/
 
+/**section-Timeline**/
 .timeline {
   border-left: 1px solid hsl(268, 97%, 49%);
   position: relative;
@@ -79,9 +85,21 @@
   width: 11px;
   content: "";
 }
+/**section-Timeline**/
 
+/**section-Projects**/
+.card-style{
+  background-color:#7303f3 ;
+  color: white;
+}
 
+.card-style:hover{
+  box-shadow: 3px 4px 6px #180133;
 
+}
+/**section-Projects**/
+
+/**section-socialmedia**/
 
 .fa {
   padding: 20px;
@@ -118,7 +136,8 @@
   background: #08090b;
   color: white;
 }
-
+/**section-socialmedia**/
+/**section-email**/
 
 .input-group{
   display: flex;
@@ -174,3 +193,5 @@
 .send-button:hover{
   box-shadow: 6px 6px 6px #180133;
 }
+
+/**section-email**/
